@@ -1,0 +1,106 @@
+:root {
+    --bg-color: #111;
+    --second-bg-color: #191919;
+    --text-color: #fff;
+    --main-color: #e91e63; /* Pinkish Red like screenshot */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--bg-color);
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.nav-link {
+    color: var(--text-color) !important;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--main-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.text-typing {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.hero-img {
+    border: 3px solid var(--second-bg-color);
+    transition: transform 0.3s;
+}
+
+.hero-img:hover {
+    transform: scale(1.02);
+    border-color: var(--main-color);
+}
+
+/* Buttons */
+.btn-danger {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-danger:hover {
+    background-color: #c2185b;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+/* Sections */
+.section-padding {
+    padding: 80px 0;
+}
+
+.bg-darker {
+    background-color: var(--second-bg-color);
+}
+
+/* Cards */
+.skill-card, .project-card, .profile-card {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid #333;
+}
+
+.project-card {
+    text-align: left;
+}
+
+.skill-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--main-color);
+}
+
+.skill-card i {
+    color: var(--main-color);
+}
+
+/* Contact Form */
+.form-control:focus {
+    background-color: #222;
+    color: #fff;
+    border-color: var(--main-color);
+    box-shadow: none;
+}
