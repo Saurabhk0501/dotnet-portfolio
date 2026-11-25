@@ -26,6 +26,72 @@ development, and modern software delivery practices.
 
 ---
 
+## Enterprise Project Case Studies
+
+| Project | Domain | Technology Stack | Documentation |
+|---|---|---|---|
+| LoanFlow | Banking & Finance | ASP.NET Core, Angular, SQL Server | [View Case Study](projects/LoanFlow.md) |
+| ShopStream | E-commerce | ASP.NET Core, React, TypeScript, SQL Server | [View Case Study](projects/ShopStream.md) |
+| PropertyHub | Real Estate | ASP.NET MVC, React, SQL Server | [View Case Study](projects/PropertyHub.md) |
+| MediTrack | Healthcare | ASP.NET Core, React, SQL Server, RabbitMQ | [View Case Study](projects/MediTrack.md) |
+
+---
+
+## Technical Documentation
+
+### Enterprise System Architecture
+
+Explore reference architecture designs covering Clean
+Architecture, Microservices, RabbitMQ, Redis, application
+security, SQL Server, cloud deployment, and CI/CD.
+
+**[View System Architecture](architecture/System-Architecture.md)**
+
+### Software Engineering Practices
+
+Explore C#, SOLID principles, design patterns, RESTful APIs,
+Entity Framework Core, SQL optimization, Angular, React,
+ASP.NET MVC, automated testing, Docker, and Azure DevOps.
+
+**[View Engineering Practices](engineering/Engineering-Practices.md)**
+
+---
+
+## Repository Structure
+
+```text
+dotnet-portfolio/
+├── architecture/
+│   └── System-Architecture.md
+├── engineering/
+│   └── Engineering-Practices.md
+├── projects/
+│   ├── LoanFlow.md
+│   ├── MediTrack.md
+│   ├── PropertyHub.md
+│   └── ShopStream.md
+└── README.md
+```
+
+---
+
+## Portfolio Scope and Confidentiality
+
+This portfolio contains professional project case studies,
+independently prepared reference architectures, and
+illustrative software engineering examples.
+
+No proprietary company source code, customer information,
+credentials, or confidential production infrastructure
+details are disclosed.
+
+Reference designs and code examples demonstrate technical
+knowledge rather than verified production implementations.
+
+---
+
+---
+
 ## Technology Stack
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge)
