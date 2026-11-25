@@ -56,6 +56,24 @@ ASP.NET MVC, automated testing, Docker, and Azure DevOps.
 **[View Engineering Practices](engineering/Engineering-Practices.md)**
 
 ---
+## Technical Publications
+
+### Designing Scalable and Secure Enterprise Applications Using .NET 8, Clean Architecture, and Microservices
+
+**Author:** Saurabh Kirulkar  
+**Publication Year:** 2026  
+**Publication Type:** Independent Technical White Paper
+
+This white paper explores enterprise application architecture,
+scalable microservices, REST API security, SQL Server
+optimization, RabbitMQ, Redis, modern frontend integration,
+and CI/CD practices.
+
+- [View Publication Details](publications/README.md)
+- [Read Technical White Paper (PDF)](publications/Saurabh_Kirulkar_Technical_White_Paper.pdf)
+
+---
+
 
 ## Repository Structure
 
